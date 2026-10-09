@@ -1,0 +1,10 @@
+{
+  "unit_tests_passed": 9,
+  "unit_tests_skipped": 0,
+  "notebook_executed_code_cells": 6,
+  "prediction_rows": 10000,
+  "islands_cli_examples_passed": 3,
+  "train_command": "python task2_regression/train.py",
+  "predict_command": "python task2_regression/predict.py",
+  "test_command": "python -m unittest discover -s . -v"
+}

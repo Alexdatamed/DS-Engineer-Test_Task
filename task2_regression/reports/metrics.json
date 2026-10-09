@@ -1,0 +1,35 @@
+{
+  "mean_validation_rmse": 28.916395431209562,
+  "linear_validation_rmse": 28.922429363276475,
+  "seed": 42,
+  "split_sizes": [
+    54000,
+    18000,
+    18000
+  ],
+  "candidates": [
+    {
+      "terms": 1,
+      "validation_rmse": 0.2883202057198251
+    },
+    {
+      "terms": 2,
+      "validation_rmse": 2.4953945405005697e-13
+    },
+    {
+      "terms": 3,
+      "validation_rmse": 2.441968228305177e-13
+    },
+    {
+      "terms": 5,
+      "validation_rmse": 2.342729573451285e-13
+    }
+  ],
+  "selected_terms": [
+    "6^2",
+    "7"
+  ],
+  "terms": 2,
+  "holdout_rmse": 3.2011980303290617e-13,
+  "holdout_max_absolute_error": 5.691003224228552e-13
+}
